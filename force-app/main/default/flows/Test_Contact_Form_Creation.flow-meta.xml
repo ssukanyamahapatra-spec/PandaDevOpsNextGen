@@ -42,6 +42,12 @@
             </value>
         </inputAssignments>
         <inputAssignments>
+            <field>Department</field>
+            <value>
+                <elementReference>Department</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
             <field>Description</field>
             <value>
                 <elementReference>Description</elementReference>
@@ -110,6 +116,22 @@
             <name>Description</name>
             <dataType>String</dataType>
             <fieldText>Description</fieldText>
+            <fieldType>InputField</fieldType>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>false</isRequired>
+            <styleProperties>
+                <verticalAlignment>
+                    <stringValue>top</stringValue>
+                </verticalAlignment>
+                <width>
+                    <stringValue>12</stringValue>
+                </width>
+            </styleProperties>
+        </fields>
+        <fields>
+            <name>Department</name>
+            <dataType>String</dataType>
+            <fieldText>Department</fieldText>
             <fieldType>InputField</fieldType>
             <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>false</isRequired>
