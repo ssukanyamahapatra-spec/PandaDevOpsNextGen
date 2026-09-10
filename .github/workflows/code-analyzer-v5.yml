@@ -49,5 +49,6 @@ jobs:
           run-arguments: >-
             --workspace . 
             ${{ steps.check-config.outputs.config_exists == 'true' && '--config-file .github/workflows/config/code-analyzer-config.yml' || '' }}
+            --severity-threshold 2
             --output-file results.html
           results-artifact-name: salesforce-code-analyzer-v5-results
